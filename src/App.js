@@ -1,17 +1,12 @@
-import React from 'react';
-import './App.css';
-import Input from './components/input';
+import React from 'react'
+import Todo from './components/Todo'
 
-function App() {
+const App = () => {
 	return (
-		<div className="App">
-			{/* <h1>Clever Programmer</h1> */}
-			{/* TODO LIST */}
-			{/* DONE */}
-			{/* INPUT */}
-			<Input />
-		</div>
-	);
+		<>
+			<Todo />
+		</>
+	)
 }
 
-export default App;
+export default App
